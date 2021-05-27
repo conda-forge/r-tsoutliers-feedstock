@@ -3,7 +3,7 @@ About r-tsoutliers
 
 Home: https://CRAN.R-project.org/package=tsoutliers
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsoutliers-feedstock/blob/master/LICENSE.txt)
 
