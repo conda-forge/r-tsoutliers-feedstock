@@ -1,11 +1,11 @@
-About r-tsoutliers
-==================
+About r-tsoutliers-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsoutliers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=tsoutliers
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsoutliers-feedstock/blob/main/LICENSE.txt)
 
 Summary: Detection of Outliers in Time Series.
 
