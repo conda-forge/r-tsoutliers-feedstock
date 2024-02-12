@@ -1,5 +1,5 @@
-{% set name = 'tsoutliers' %}
-{% set version = '0.6-8' %}
+{% set name = "tsoutliers" %}
+{% set version = "0.6-10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/{{ name }}_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/{{ name }}/{{ name }}_{{ version }}.tar.gz
-  sha256: f01b768828ece4940798b3b3a4ef6c51893cd9a15e50c70815d79b40fc3c0d0b
+  sha256: 0e9e30bcd8861e67201a5e57a915a7e920105d021adbccf35f32ffe0c55e0560
 
 build:
-  merge_build_host: True  # [win]
-  number: 4
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
